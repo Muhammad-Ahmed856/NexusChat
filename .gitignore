@@ -1,0 +1,34 @@
+# ========================
+# NexusChat — .gitignore
+# ========================
+
+# Uploaded user files (avatars, attachments)
+uploads/*
+!uploads/.htaccess
+
+# Logs & debug
+*.log
+error_log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# PHP session files
+sessions/
+
+# Composer (not used, but just in case)
+vendor/
+composer.lock
+
+# Node (not used, but just in case)
+node_modules/
+package-lock.json

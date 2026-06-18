@@ -1,0 +1,33 @@
+/*
+ * assets/fonts/fonts.css — Offline-safe font stack
+ * No internet required. Uses system fonts on every OS:
+ *   Windows  → Segoe UI
+ *   macOS    → -apple-system (SF Pro)
+ *   Linux    → Ubuntu / Cantarell / DejaVu Sans
+ *   Android  → Roboto
+ *   iOS      → -apple-system
+ *
+ * Fira Code equivalent: Consolas (Win) / Menlo (Mac) / DejaVu Sans Mono (Linux)
+ */
+
+/* Outfit equivalent — system UI sans-serif */
+.font-outfit,
+body, button, input, textarea, select {
+  font-family:
+    -apple-system, BlinkMacSystemFont,
+    'Segoe UI', 'Helvetica Neue', Arial,
+    Ubuntu, Cantarell,
+    sans-serif;
+}
+
+/* Fira Code equivalent — system monospace */
+.font-fira,
+code, pre, kbd, samp,
+.conn-val, .url-box, .conn-port-val, .conn-ip-val {
+  font-family:
+    'Fira Code',
+    Consolas, 'Cascadia Code', 'Cascadia Mono',
+    Menlo, Monaco,
+    'DejaVu Sans Mono', 'Liberation Mono',
+    'Courier New', monospace;
+}
